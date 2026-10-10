@@ -1,0 +1,101 @@
+timestamp,src_ip,dst_ip,alert_type,severity
+2022-01-20T00:00:03+02:00,extip1,-1,GPL SNMP public access udp,low
+2022-01-20T00:00:17+02:00,extip3,intip2,ET VOIP REGISTER Message Flood UDP,medium
+2022-01-20T00:00:31+02:00,extip4,intip3,ET EXPLOIT D-Link Devices Home Network Administration Protocol Command Execution,high
+2022-01-20T00:00:31+02:00,extip4,intip3,ET WEB_SERVER WGET Command Specifying Output in HTTP Headers,low
+2022-01-20T00:00:31+02:00,extip4,intip3,ET WEB_SERVER Possible D-Link Router HNAP Protocol Security Bypass Attempt,low
+2022-01-20T00:00:38+02:00,extip7,-1,ET DOS Possible SSDP Amplification Scan in Progress,medium
+2022-01-20T00:01:05+02:00,extip12,intip10,ET VOIP Multiple Unauthorized SIP Responses UDP,high
+2022-01-20T00:01:05+02:00,extip14,intip12,ET WEB_SERVER Possible HTTP 403 XSS Attempt (Local Source),high
+2022-01-20T00:01:05+02:00,extip14,intip12,GPL WEB_SERVER 403 Forbidden,low
+2022-01-20T00:01:39+02:00,extip18,intip17,ET DNS Query for .su TLD (Soviet Union) Often Malware Related,high
+2022-01-20T00:01:50+02:00,extip20,-1,ET WEB_SERVER ThinkPHP RCE Exploitation Attempt,high
+2022-01-20T00:01:53+02:00,extip18,intip17,ET DNS Query for .to TLD,low
+2022-01-20T00:01:59+02:00,extip24,intip22,ET EXPLOIT HackingTrio UA (Hello World),high
+2022-01-20T00:02:01+02:00,extip24,intip22,ETPRO EXPLOIT GPON Authentication Bypass Attempt (CVE-2018-10561),high
+2022-01-20T00:02:01+02:00,extip24,intip22,ET WEB_SERVER WebShell Generic - wget http - POST,low
+2022-01-20T00:02:02+02:00,extip13,intip23,GPL DNS named version attempt,low
+2022-01-20T00:02:11+02:00,extip26,intip24,ET EXPLOIT Netgear DGN Remote Command Execution,high
+2022-01-20T00:03:11+02:00,extip36,intip32,ETPRO USER_AGENTS Observed Suspicious UA (Mozilla/5.0),medium
+2022-01-20T00:05:18+02:00,extip50,intip46,ET USER_AGENTS Suspicious User-Agent (Clever Internet Suite),medium
+2022-01-20T00:06:54+02:00,extip59,intip58,ET DOS Possible NTP DDoS Inbound Frequent Un-Authed MON_LIST Requests IMPL 0x03,low
+2022-01-20T00:07:18+02:00,extip19,intip18,ET ADWARE_PUP DriverPack Domain in DNS Query,low
+2022-01-20T00:11:31+02:00,extip82,intip89,GPL RPC xdmcp info query,low
+2022-01-20T00:11:57+02:00,extip18,intip18,ET DNS Query for .cc TLD,low
+2022-01-20T00:14:05+02:00,extip93,intip108,ETPRO WEB_SPECIFIC_APPS PHPUnit Arbitrary Code Execution (CVE-2017-9841) M1,low
+2022-01-20T00:16:08+02:00,extip100,intip123,ET WEB_SERVER Possible SQL Injection Attempt DELETE FROM,medium
+2022-01-20T00:17:51+02:00,extip106,intip134,ET MALWARE eleethub botnet CnC Domain in DNS Lookup (irc.eleethub .com),high
+2022-01-20T00:18:37+02:00,extip111,intip143,ET WEB_SERVER WEB-PHP phpinfo access,low
+2022-01-20T00:19:07+02:00,extip111,intip143,ET WEB_SPECIFIC_APPS vBulletin RCE Inbound (CVE-2019-16759 Bypass),high
+2022-01-20T00:19:10+02:00,extip111,intip143,ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability,low
+2022-01-20T00:19:21+02:00,extip111,intip143,ET WEB_SERVER PHP tags in HTTP POST,low
+2022-01-20T00:19:21+02:00,extip111,intip143,ET WEB_SERVER safe_mode PHP config option in uri,low
+2022-01-20T00:19:21+02:00,extip111,intip143,ET WEB_SERVER suhosin.simulation PHP config option in uri,low
+2022-01-20T00:19:21+02:00,extip111,intip143,ET WEB_SERVER open_basedir PHP config option in uri,low
+2022-01-20T00:19:21+02:00,extip111,intip143,ET WEB_SERVER allow_url_include PHP config option in uri,low
+2022-01-20T00:19:21+02:00,extip111,intip143,ET WEB_SERVER disable_functions PHP config option in uri,low
+2022-01-20T00:19:21+02:00,extip111,intip143,ET WEB_SERVER auto_prepend_file PHP config option in uri,low
+2022-01-20T00:24:03+02:00,extip135,intip194,ETPRO ADWARE_PUP DriverUpdate PUA User-Agent (SupportNumber),low
+2022-01-20T00:24:03+02:00,extip135,intip194,ETPRO ADWARE_PUP DriverUpdate PUA User-Agent (SlimDrivers),low
+2022-01-20T00:24:04+02:00,extip136,intip196,ET EXPLOIT MVPower DVR Shell UCE,high
+2022-01-20T00:24:31+02:00,extip137,intip194,ETPRO MALWARE Possible Cerber Ransomware IP Check,high
+2022-01-20T00:32:23+02:00,extip107,intip134,ET MALWARE eleethub .com Domain in DNS Lookup (eleethub .com),high
+2022-01-20T00:32:33+02:00,extip161,intip265,GPL SQL sa brute force failed login unicode attempt,high
+2022-01-20T00:40:01+02:00,extip18,intip17,ET DNS Query to a .tk domain - Likely Hostile,low
+2022-01-20T00:42:21+02:00,extip185,intip347,ET EXPLOIT Apache Struts Possible OGNL Java ProcessBuilder in client body,high
+2022-01-20T00:50:52+02:00,extip202,intip404,ETPRO ADWARE_PUP MalwareProtectionLive PUP Activity,high
+2022-01-20T00:55:47+02:00,extip211,intip347,ETPRO EXPLOIT Possible Confluence OGNL Injection Inbound (CVE-2021-26084),high
+2022-01-20T00:57:02+02:00,extip212,intip443,ET WEB_SPECIFIC_APPS Microhard Systems 3G/4G Cellular Ethernet and Serial Gateway - Default Credentials,low
+2022-01-20T00:58:18+02:00,extip216,intip452,ET WEB_SERVER PyCurl Suspicious User Agent Inbound,medium
+2022-01-20T01:06:10+02:00,extip111,intip143,ET EXPLOIT Joomla RCE (JDatabaseDriverMysqli) M2,high
+2022-01-20T01:06:10+02:00,extip111,intip143,ET EXPLOIT Joomla RCE M3 (Serialized PHP in XFF),high
+2022-01-20T01:06:14+02:00,extip111,intip143,ET WEB_SPECIFIC_APPS ECSHOP user.php SQL INJECTION via Referer,medium
+2022-01-20T01:28:22+02:00,extip267,intip638,ET VOIP INVITE Message Flood UDP,medium
+2022-01-20T01:28:22+02:00,extip267,intip639,GPL VOIP SIP INVITE message flooding,medium
+2022-01-20T01:30:51+02:00,extip270,intip267,ET WEB_SERVER HTTP POST Generic eval of base64_decode,low
+2022-01-20T01:33:36+02:00,extip275,intip680,ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt,low
+2022-01-20T01:56:56+02:00,extip20,-1,ET WEB_SERVER Possible XXE SYSTEM ENTITY in POST BODY.,low
+2022-01-20T01:56:56+02:00,extip20,-1,ET EXPLOIT Zimbra <8.8.11 - XML External Entity Injection/SSRF Attempt (CVE-2019-9621),high
+2022-01-20T02:07:12+02:00,extip344,intip881,ET EXPLOIT Possible Gitlab CE/EE Image Parser RCE Inbound (CVE-2021-22205),high
+2022-01-20T02:15:00+02:00,extip352,intip930,ET EXPLOIT Possible Vacron NVR Remote Command Execution,high
+2022-01-20T02:27:11+02:00,extip370,intip680,ET WEB_SPECIFIC_APPS Amateur Photographer Image Gallery file parameter Local File Inclusion Attempt,low
+2022-01-20T02:27:17+02:00,extip371,intip134,ET DNS Query to a *.top domain - Likely Hostile,low
+2022-01-20T02:31:40+02:00,extip375,intip1013,ET VOIP Modified Sipvicious Asterisk PBX User-Agent,low
+2022-01-20T02:34:37+02:00,extip379,intip1033,ET WEB_SERVER SQL Errors in HTTP 200 Response (mysql_query),low
+2022-01-20T02:38:07+02:00,extip370,intip680,ETPRO EXPLOIT revslider_show_image Plugin Local File Inclusion Exploit Attempt,high
+2022-01-20T02:38:07+02:00,extip370,intip680,ET WEB_SPECIFIC_APPS Possible WP CuckooTap Arbitrary File Download,low
+2022-01-20T02:38:09+02:00,extip370,intip680,ET WEB_SPECIFIC_APPS WP Generic revslider Arbitrary File Download,low
+2022-01-20T02:38:13+02:00,extip370,intip680,ET WEB_SPECIFIC_APPS Wordpress Google Doc Embedder plugin file parameter Local File Inclusion Attempt,low
+2022-01-20T02:38:26+02:00,extip370,intip680,ET WEB_SPECIFIC_APPS WordPress UnGallery pic Parameter Local File Inclusion Attempt,low
+2022-01-20T02:38:30+02:00,extip370,intip680,ETPRO WEB_SPECIFIC_APPS WP Theme LFI Attempt,low
+2022-01-20T03:00:42+02:00,extip435,-1,ET DOS DNS Amplification Attack Inbound,medium
+2022-01-20T03:23:55+02:00,extip472,intip1337,ET WEB_SERVER WebShell Generic - net user,low
+2022-01-20T03:30:04+02:00,extip478,intip853,ETPRO EXPLOIT Attempted THINKPHP < 5.2.x RCE Inbound,high
+2022-01-20T03:34:05+02:00,extip20,-1,ET WEB_SERVER /bin/sh In URI Possible Shell Command Execution Attempt,high
+2022-01-20T03:34:05+02:00,extip20,-1,ETPRO WEB_SPECIFIC_APPS ipTIME firmware < 9.58 RCE,high
+2022-01-20T04:12:19+02:00,extip517,intip1593,ETPRO ADWARE_PUP Suspicious Domain (flow .lavasoft .com) in TLS SNI,medium
+2022-01-20T04:15:29+02:00,extip523,intip868,ET EXPLOIT SSL excessive fatal alerts (possible POODLE attack against server),high
+2022-01-20T05:33:44+02:00,extip603,-1,ETPRO DOS Possible RPC Portmapper Scanning,medium
+2022-01-20T08:04:14+02:00,extip744,intip1317,ETPRO ADWARE_PUP Observed Suspicious UA (AdvancedInstaller),medium
+2022-01-20T08:31:25+02:00,extip798,intip1337,ET WEB_SERVER Possible DD-WRT Metacharacter Injection Command Execution Attempt,high
+2022-01-20T08:42:02+02:00,extip810,intip1149,ETPRO PHISHING Successful KerioConnect Webmail Phish Aug 29 2017,low
+2022-01-20T08:42:02+02:00,extip810,intip1149,ETPRO PHISHING Successful Generic Phish 2019-02-25,low
+2022-01-20T09:01:48+02:00,extip834,intip868,ET EXPLOIT Apache Obfuscated log4j RCE Attempt (tcp ldap) (CVE-2021-44228),high
+2022-01-20T09:07:14+02:00,extip89,intip24,ET WEB_SERVER Possible IIS Integer Overflow DoS (CVE-2015-1635),low
+2022-01-20T09:26:16+02:00,extip19,intip17,ET DNS Query to a *.pw domain - Likely Hostile,low
+2022-01-20T09:54:48+02:00,extip912,intip404,ET PHISHING Possible Phish - Mirrored Website Comment Observed,low
+2022-01-20T10:37:35+02:00,extip999,intip720,ET USER_AGENTS Suspicious User-Agent (Windows 10),medium
+2022-01-20T10:59:17+02:00,extip1027,intip318,ET USER_AGENTS PyCurl Suspicious User Agent Outbound,medium
+2022-01-20T11:06:02+02:00,extip1033,intip1320,ET USER_AGENTS Suspicious User-Agent (Embarcadero URI Client/1.0),medium
+2022-01-20T11:24:35+02:00,extip1049,intip1149,ET MALWARE SUSPICIOUS UA (iexplore),high
+2022-01-20T11:57:05+02:00,extip1099,intip2565,ETPRO USER_AGENTS non-standard wget User-Agent,low
+2022-01-20T12:03:05+02:00,extip603,-1,ET DOS Potential CLDAP Amplification Reflection,medium
+2022-01-20T12:24:19+02:00,extip1130,intip3503,ET WEB_SPECIFIC_APPS Attempted Symantec Secure Web Gateway RCE,high
+2022-01-20T13:10:59+02:00,extip1184,intip404,ET MALWARE Possible Windows executable sent when remote host claims to send html content,high
+2022-01-20T13:34:22+02:00,extip1201,intip194,ET MALWARE Possible Compromised Host AnubisNetworks Sinkhole Cookie Value Snkz,high
+2022-01-20T13:52:39+02:00,extip1215,intip3043,ET CNC Feodo Tracker Reported CnC Server group 10,low
+2022-01-20T15:40:01+02:00,extip1331,intip1149,ETPRO USER_AGENTS Observed UA (Shockwave Flash),low
+2022-01-20T15:48:03+02:00,extip1340,intip24,ET CNC Feodo Tracker Reported CnC Server group 11,low
+2022-01-20T16:03:39+02:00,extip1359,intip1727,ET WEB_SERVER Possible Apache Struts OGNL in Dynamic Action,low
+2022-01-20T16:03:39+02:00,extip1359,intip1727,ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M2 (CVE-2021-44228),high
+2022-01-20T16:03:39+02:00,extip1359,intip1727,ET EXPLOIT Apache log4j RCE Attempt (tcp ldap) (CVE-2021-44228),high
