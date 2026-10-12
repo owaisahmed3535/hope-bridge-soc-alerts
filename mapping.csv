@@ -1,0 +1,101 @@
+alert_type,technique_id,technique_name
+GPL SNMP public access udp,T1016,System Network Configuration Discovery
+ET VOIP REGISTER Message Flood UDP,T1498,Network Denial of Service
+ET EXPLOIT D-Link Devices Home Network Administration Protocol Command Execution,T1190,Exploit Public-Facing Application
+ET WEB_SERVER WGET Command Specifying Output in HTTP Headers,T1071.001,Web Protocols
+ET WEB_SERVER Possible D-Link Router HNAP Protocol Security Bypass Attempt,T1071.001,Web Protocols
+ET DOS Possible SSDP Amplification Scan in Progress,T1046,Network Service Discovery
+ET VOIP Multiple Unauthorized SIP Responses UDP,T1078,Valid Accounts
+ET WEB_SERVER Possible HTTP 403 XSS Attempt (Local Source),T1189,Drive-by Compromise
+GPL WEB_SERVER 403 Forbidden,T1071.001,Web Protocols
+ET DNS Query for .su TLD (Soviet Union) Often Malware Related,T1204,User Execution
+ET WEB_SERVER ThinkPHP RCE Exploitation Attempt,T1190,Exploit Public-Facing Application
+ET DNS Query for .to TLD,T1071.004,DNS
+ET EXPLOIT HackingTrio UA (Hello World),T1190,Exploit Public-Facing Application
+ETPRO EXPLOIT GPON Authentication Bypass Attempt (CVE-2018-10561),T1190,Exploit Public-Facing Application
+ET WEB_SERVER WebShell Generic - wget http - POST,T1071.001,Web Protocols
+GPL DNS named version attempt,T1071.004,DNS
+ET EXPLOIT Netgear DGN Remote Command Execution,T1190,Exploit Public-Facing Application
+ETPRO USER_AGENTS Observed Suspicious UA (Mozilla/5.0),T1036,Masquerading
+ET USER_AGENTS Suspicious User-Agent (Clever Internet Suite),T1036,Masquerading
+ET DOS Possible NTP DDoS Inbound Frequent Un-Authed MON_LIST Requests IMPL 0x03,T1046,Network Service Discovery
+ET ADWARE_PUP DriverPack Domain in DNS Query,T1071.004,DNS
+GPL RPC xdmcp info query,T1046,Network Service Discovery
+ET DNS Query for .cc TLD,T1071.004,DNS
+ETPRO WEB_SPECIFIC_APPS PHPUnit Arbitrary Code Execution (CVE-2017-9841) M1,T1071.001,Web Protocols
+ET WEB_SERVER Possible SQL Injection Attempt DELETE FROM,T1190,Exploit Public-Facing Application
+ET MALWARE eleethub botnet CnC Domain in DNS Lookup (irc.eleethub .com),T1204,User Execution
+ET WEB_SERVER WEB-PHP phpinfo access,T1071.001,Web Protocols
+ET WEB_SPECIFIC_APPS vBulletin RCE Inbound (CVE-2019-16759 Bypass),T1071.001,Web Protocols
+ET WEB_SPECIFIC_APPS PHP-CGI query string parameter vulnerability,T1071.001,Web Protocols
+ET WEB_SERVER PHP tags in HTTP POST,T1071.001,Web Protocols
+ET WEB_SERVER safe_mode PHP config option in uri,T1071.001,Web Protocols
+ET WEB_SERVER suhosin.simulation PHP config option in uri,T1071.001,Web Protocols
+ET WEB_SERVER open_basedir PHP config option in uri,T1071.001,Web Protocols
+ET WEB_SERVER allow_url_include PHP config option in uri,T1071.001,Web Protocols
+ET WEB_SERVER disable_functions PHP config option in uri,T1071.001,Web Protocols
+ET WEB_SERVER auto_prepend_file PHP config option in uri,T1071.001,Web Protocols
+ETPRO ADWARE_PUP DriverUpdate PUA User-Agent (SupportNumber),T1046,Network Service Discovery
+ETPRO ADWARE_PUP DriverUpdate PUA User-Agent (SlimDrivers),T1046,Network Service Discovery
+ET EXPLOIT MVPower DVR Shell UCE,T1190,Exploit Public-Facing Application
+ETPRO MALWARE Possible Cerber Ransomware IP Check,T1204,User Execution
+ET MALWARE eleethub .com Domain in DNS Lookup (eleethub .com),T1204,User Execution
+GPL SQL sa brute force failed login unicode attempt,T1110,Brute Force
+ET DNS Query to a .tk domain - Likely Hostile,T1071.004,DNS
+ET EXPLOIT Apache Struts Possible OGNL Java ProcessBuilder in client body,T1190,Exploit Public-Facing Application
+ETPRO ADWARE_PUP MalwareProtectionLive PUP Activity,T1204,User Execution
+ETPRO EXPLOIT Possible Confluence OGNL Injection Inbound (CVE-2021-26084),T1190,Exploit Public-Facing Application
+ET WEB_SPECIFIC_APPS Microhard Systems 3G/4G Cellular Ethernet and Serial Gateway - Default Credentials,T1071.001,Web Protocols
+ET WEB_SERVER PyCurl Suspicious User Agent Inbound,T1071.001,Web Protocols
+ET EXPLOIT Joomla RCE (JDatabaseDriverMysqli) M2,T1190,Exploit Public-Facing Application
+ET EXPLOIT Joomla RCE M3 (Serialized PHP in XFF),T1190,Exploit Public-Facing Application
+ET WEB_SPECIFIC_APPS ECSHOP user.php SQL INJECTION via Referer,T1190,Exploit Public-Facing Application
+ET VOIP INVITE Message Flood UDP,T1498,Network Denial of Service
+GPL VOIP SIP INVITE message flooding,T1498,Network Denial of Service
+ET WEB_SERVER HTTP POST Generic eval of base64_decode,T1071.001,Web Protocols
+ET WEB_SERVER Script tag in URI Possible Cross Site Scripting Attempt,T1071.001,Web Protocols
+ET WEB_SERVER Possible XXE SYSTEM ENTITY in POST BODY.,T1071.001,Web Protocols
+ET EXPLOIT Zimbra <8.8.11 - XML External Entity Injection/SSRF Attempt (CVE-2019-9621),T1190,Exploit Public-Facing Application
+ET EXPLOIT Possible Gitlab CE/EE Image Parser RCE Inbound (CVE-2021-22205),T1190,Exploit Public-Facing Application
+ET EXPLOIT Possible Vacron NVR Remote Command Execution,T1190,Exploit Public-Facing Application
+ET WEB_SPECIFIC_APPS Amateur Photographer Image Gallery file parameter Local File Inclusion Attempt,T1071.001,Web Protocols
+ET DNS Query to a *.top domain - Likely Hostile,T1071.004,DNS
+ET VOIP Modified Sipvicious Asterisk PBX User-Agent,T1046,Network Service Discovery
+ET WEB_SERVER SQL Errors in HTTP 200 Response (mysql_query),T1071.001,Web Protocols
+ETPRO EXPLOIT revslider_show_image Plugin Local File Inclusion Exploit Attempt,T1190,Exploit Public-Facing Application
+ET WEB_SPECIFIC_APPS Possible WP CuckooTap Arbitrary File Download,T1071.001,Web Protocols
+ET WEB_SPECIFIC_APPS WP Generic revslider Arbitrary File Download,T1071.001,Web Protocols
+ET WEB_SPECIFIC_APPS Wordpress Google Doc Embedder plugin file parameter Local File Inclusion Attempt,T1071.001,Web Protocols
+ET WEB_SPECIFIC_APPS WordPress UnGallery pic Parameter Local File Inclusion Attempt,T1071.001,Web Protocols
+ETPRO WEB_SPECIFIC_APPS WP Theme LFI Attempt,T1071.001,Web Protocols
+ET DOS DNS Amplification Attack Inbound,T1071.004,DNS
+ET WEB_SERVER WebShell Generic - net user,T1071.001,Web Protocols
+ETPRO EXPLOIT Attempted THINKPHP < 5.2.x RCE Inbound,T1190,Exploit Public-Facing Application
+ET WEB_SERVER /bin/sh In URI Possible Shell Command Execution Attempt,T1059,Command and Scripting Interpreter
+ETPRO WEB_SPECIFIC_APPS ipTIME firmware < 9.58 RCE,T1071.001,Web Protocols
+ETPRO ADWARE_PUP Suspicious Domain (flow .lavasoft .com) in TLS SNI,T1036,Masquerading
+ET EXPLOIT SSL excessive fatal alerts (possible POODLE attack against server),T1190,Exploit Public-Facing Application
+ETPRO DOS Possible RPC Portmapper Scanning,T1046,Network Service Discovery
+ETPRO ADWARE_PUP Observed Suspicious UA (AdvancedInstaller),T1036,Masquerading
+ET WEB_SERVER Possible DD-WRT Metacharacter Injection Command Execution Attempt,T1059,Command and Scripting Interpreter
+ETPRO PHISHING Successful KerioConnect Webmail Phish Aug 29 2017,T1071.001,Web Protocols
+ETPRO PHISHING Successful Generic Phish 2019-02-25,T1566,Phishing
+ET EXPLOIT Apache Obfuscated log4j RCE Attempt (tcp ldap) (CVE-2021-44228),T1190,Exploit Public-Facing Application
+ET WEB_SERVER Possible IIS Integer Overflow DoS (CVE-2015-1635),T1071.001,Web Protocols
+ET DNS Query to a *.pw domain - Likely Hostile,T1071.004,DNS
+ET PHISHING Possible Phish - Mirrored Website Comment Observed,T1071.001,Web Protocols
+ET USER_AGENTS Suspicious User-Agent (Windows 10),T1036,Masquerading
+ET USER_AGENTS PyCurl Suspicious User Agent Outbound,T1036,Masquerading
+ET USER_AGENTS Suspicious User-Agent (Embarcadero URI Client/1.0),T1036,Masquerading
+ET MALWARE SUSPICIOUS UA (iexplore),T1204,User Execution
+ETPRO USER_AGENTS non-standard wget User-Agent,T1046,Network Service Discovery
+ET DOS Potential CLDAP Amplification Reflection,T1046,Network Service Discovery
+ET WEB_SPECIFIC_APPS Attempted Symantec Secure Web Gateway RCE,T1071.001,Web Protocols
+ET MALWARE Possible Windows executable sent when remote host claims to send html content,T1204,User Execution
+ET MALWARE Possible Compromised Host AnubisNetworks Sinkhole Cookie Value Snkz,T1204,User Execution
+ET CNC Feodo Tracker Reported CnC Server group 10,T1046,Network Service Discovery
+ETPRO USER_AGENTS Observed UA (Shockwave Flash),T1046,Network Service Discovery
+ET CNC Feodo Tracker Reported CnC Server group 11,T1046,Network Service Discovery
+ET WEB_SERVER Possible Apache Struts OGNL in Dynamic Action,T1071.001,Web Protocols
+ET EXPLOIT Apache log4j RCE Attempt - lower/upper TCP Bypass M2 (CVE-2021-44228),T1190,Exploit Public-Facing Application
+ET EXPLOIT Apache log4j RCE Attempt (tcp ldap) (CVE-2021-44228),T1190,Exploit Public-Facing Application
