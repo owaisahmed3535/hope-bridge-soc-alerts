@@ -107,3 +107,21 @@ python3 -c "import pandas as pd; df=pd.read_csv('mapping.csv'); print('Rows:',le
 ### Validation Results
 
 The generated mapping contains 100 unique alert types, all three required columns, zero missing values, and 13 distinct ATT&CK technique IDs.
+
+
+
+## Task 3: SOC Triage Playbook
+
+The `playbook.md` file provides a documented SOC alert triage process for Hope Bridge Foundation.
+
+It covers:
+- Alert validation and investigation steps.
+- Severity definitions and handling for Low, Medium, and High alerts.
+- Escalation criteria and communication paths to a senior security analyst.
+- Evidence documentation, closure criteria, and playbook limitations.
+
+The playbook uses a practical, evidence-based triage approach. Alert severity and preliminary MITRE ATT&CK mappings should be validated during investigation. Contact names and response time requirements must be confirmed by the foundation.
+
+### View the Playbook
+
+See [`playbook.md`](playbook.md) for the complete triage procedure.
