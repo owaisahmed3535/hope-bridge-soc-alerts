@@ -125,3 +125,37 @@ The playbook uses a practical, evidence-based triage approach. Alert severity an
 ### View the Playbook
 
 See [`playbook.md`](playbook.md) for the complete triage procedure.
+
+
+
+
+
+## Task 4: Weekly SOC Report Template
+
+This task provides a reusable weekly SOC reporting template for Hope Bridge Foundation.
+
+### Files
+
+- `report_template.md` — reusable template with clearly marked placeholders for weekly report data.
+- `sample_report.md` — illustrative example of a completed weekly SOC report.
+
+### How to Fill the Template
+
+1. Open `report_template.md` and copy it into a new file for the reporting week.
+2. Replace all bracketed placeholders, such as `[START_DATE]`, `[TOTAL_ALERTS]`, and `[ANALYST_NAME]`, with verified information.
+3. Complete the Summary with total alerts, severity counts, confirmed incidents, and escalations.
+4. Populate Top Alerts with significant events, timestamps, severity, source IPs, statuses, and actions taken.
+5. Complete Trends using current and previous reporting-period data. If comparison data is unavailable, state that clearly.
+6. Add Recommendations with priority, reason, suggested owner, and target date.
+7. Verify counts and findings against `alerts_clean.csv` and available investigation records before sharing the report.
+
+### Reporting Notes
+
+`sample_report.md` contains illustrative example data only. Its figures and events are not verified live incidents. Replace them with validated findings before using a report operationally.
+
+MITRE ATT&CK associations in `mapping.csv` are preliminary keyword-based mappings and do not independently confirm that an attack occurred.
+
+### View the Reports
+
+- [Weekly SOC Report Template](report_template.md)
+- [Sample Weekly SOC Report](sample_report.md)
