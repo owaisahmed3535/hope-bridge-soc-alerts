@@ -159,3 +159,15 @@ MITRE ATT&CK associations in `mapping.csv` are preliminary keyword-based mapping
 
 - [Weekly SOC Report Template](report_template.md)
 - [Sample Weekly SOC Report](sample_report.md)
+
+
+## Task 5: Deploy SOC Documentation Site
+
+The Hope Bridge Foundation SOC documentation is hosted on GitHub Pages.
+
+**Live Website:** https://owaisahmed3535.github.io/hope-bridge-soc-alerts/
+
+The site provides navigation to:
+- [SOC Triage Playbook](playbook.md)
+- [Weekly SOC Report Template](report_template.md)
+- [Sample Weekly SOC Report](sample_report.md)
